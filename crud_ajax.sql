@@ -13,12 +13,10 @@
 
 
 -- Dumping database structure for crud_ajax
-DROP DATABASE IF EXISTS `crud_ajax`;
 CREATE DATABASE IF NOT EXISTS `crud_ajax` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `crud_ajax`;
 
 -- Dumping structure for table crud_ajax.siswa
-DROP TABLE IF EXISTS `siswa`;
 CREATE TABLE IF NOT EXISTS `siswa` (
   `nis` varchar(11) NOT NULL,
   `nama` varchar(50) NOT NULL,
